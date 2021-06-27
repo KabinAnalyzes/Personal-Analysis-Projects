@@ -152,6 +152,6 @@ Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinatio
 From Porfolio_Project_1..CovidDeaths dea
 Join Porfolio_Project_1..CovidVaccinations vac
 	On dea.location = vac.location
-	and dea.date = vac.date
+	 and dea.date = vac.date
 where dea.continent is not null 
 --order by 2,3
